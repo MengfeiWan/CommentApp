@@ -27,6 +27,7 @@ export default function (state,action) {
 }
 // action creators
 export const initComments = (comments) => {
+  const a = 1;
     return { type: INIT_COMMENTS, comments }
 }
   
